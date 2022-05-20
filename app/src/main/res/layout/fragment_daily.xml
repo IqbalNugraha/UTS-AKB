@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DailyFragment"
+    android:background="@color/base">
+
+    <LinearLayout
+        android:id="@+id/field_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_daily"
+            style="@style/profile"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:drawableTop="@drawable/planner"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/btn_3" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_friend"
+            style="@style/profile"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:drawableTop="@drawable/friends"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/btn_4"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/field_btn">
+
+        <FrameLayout
+            android:id="@+id/page_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

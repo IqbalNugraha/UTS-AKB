@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="@drawable/border_icon">
+    <ImageView
+        android:id="@+id/fotoLagu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/baby"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/judulLagu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Troye Sivan - Angel Baby"
+        android:layout_marginTop="20dp"
+        style="@style/hobi"
+        android:textSize="14sp"
+        android:paddingLeft="10dp" />
+</LinearLayout>

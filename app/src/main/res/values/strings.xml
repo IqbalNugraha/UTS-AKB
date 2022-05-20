@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AboutMyLife</string>
+
+    <string name="deskripsi">Nama saya Iqbal Fatur Nugraha, saya lahir di Bandung pada tanggal 21 Agustus 2000, saya sebagai mahasiswa aktif di fakultas Teknik dan Ilmu Komputer, jurusan Teknik Informatika di Universitas Komputer Indonesia, saya sekarang berada di semester 6.</string>
+    <string name="deskripsi2">Saya merupakan anak pertama dari 2 bersaudara, adik saya sekarang sedang berada di kelas 3 SMA di Kota Bandung, sebelum masuk ke UNIKOM, asal SMA saya di SMAN 18 Bandung, lalu SMP di SMPN 39 Bandung, dan SD di SDN Babakan Tarogong 5.</string>
+
+    <string name="nama">Iqbal Nugraha</string>
+    <string name="motivasi">Hidup Cuma Sekali, jadi Nikmatilah Selagi Bisa</string>
+    <string name="btn_1">Profile</string>
+    <string name="btn_2">Interest</string>
+    <string name="btn_3">Daily Activity</string>
+    <string name="btn_4">Friend List</string>
+    <string name="btn_5">List Music</string>
+    <string name="btn_6">List Video</string>
+    <string name="btn_7">Contact</string>
+    <string name="btn_8">Find Me</string>
+    <string name="btn_9">About Apps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

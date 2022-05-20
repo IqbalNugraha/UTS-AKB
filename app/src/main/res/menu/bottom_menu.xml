@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/galeri"
+        android:icon="@drawable/gallery"
+        android:title="Galeri" />
+
+    <item android:id="@+id/daily"
+        android:icon="@drawable/daily"
+        android:title="Daily" />
+
+    <item android:id="@+id/home_nav"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item android:id="@+id/music"
+        android:icon="@drawable/music"
+        android:title="Media" />
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+
+</menu>
